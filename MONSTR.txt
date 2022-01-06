@@ -1,0 +1,10 @@
+Download and unzip MONSTR v1.2.1 from https://www.nitrc.org/frs/?group_id=1063
+Add line "export MCRROOT=/export/matlab/MCR/R2015b/v90" to run_create_brainmask.sh and run_image_dilate.sh
+Uncomment lines 76-78 from MONSTR.sh, which are: 
+DISP=`echo $(( RANDOM %( 300 - 3 + 1 ) + 3 ))`
+Xvfb :${DISP} -screen 0 800x600x8 &
+DISPLAY=":${DISP}"
+Either download and unzip Atlasesv1.1 from https://www.nitrc.org/frs/?group_id=1063 or use another set of atlases
+Run the command bash MONSTR.sh --t1 T1_IMAGE --o OutputDir --atlasdir AtlasDir --natlas NumAtlas --ncpu NumCPU
+Change the header of the output masks to the match the header of the original image with the command fslcpgeom
+MONSTR is locally stored in /home/gilberstadt.j/Upload_from_Local/fsltest/MONSTR1.2.1
