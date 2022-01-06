@@ -1,0 +1,6 @@
+Clone the HD-BET repository from https://github.com/NeuroAI-HD/HD-BET
+Install the requirements listed in the installation instructions
+Make sure that the input images are in either RPI or LPI orientation
+Run HD-BET using GPU since it's much faster than using CPU
+Change the header of the output masks to the match the header of the original image with the command fslcpgeom
+HD-BET is locally stored in /home/gilberstadt.j/Upload_from_Local/fsltest/HD-BET
