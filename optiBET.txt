@@ -1,0 +1,4 @@
+Download optiBET.sh from https://montilab.psych.ucla.edu/fmri-wiki/optibet/
+Run the command sh optiBET.sh -i input
+The output will be a mask and skullstripped brain that are located in the same folder as the input image
+The script for running optiBET is locally stored in /scratch/gilberstadt.j/ADNI_data/optiBET.sh
