@@ -1,0 +1,5 @@
+Load fsl as a module
+Use a set of skullstripped images as an input for flirt
+Run the command flirt -in inputvol -ref refvol -omat outputmatrix to produce an affine matrix
+Use avscale to find the determinant of the affine matrix. The reciprocal of the determinant is called the Atlas Scaling Factor (ASF)
+Divide the volume of a template atlas mask by the ASF to obtain the eTIV (equivalent of ICV)
