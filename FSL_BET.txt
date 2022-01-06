@@ -1,0 +1,2 @@
+Load fsl as a module
+Run the command bet input output -m
