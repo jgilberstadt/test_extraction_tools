@@ -1,2 +1,2 @@
 Load afni as a module
-Run the command 3dSkullStrip -input VOL -prefix VOL_PREFIX where VOL_PREFIX is the name of the output mask
+Run the command 3dSkullStrip -input VOL -prefix VOL_PREFIX -mask_vol to produce a mask where VOL_PREFIX is the name of the output mask
