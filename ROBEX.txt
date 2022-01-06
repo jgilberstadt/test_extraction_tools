@@ -1,0 +1,3 @@
+Download ROBEX 1.2 from https://www.nitrc.org/frs/?group_id=622
+Run the command bash runROBEX.sh inpuFile strippedFile outputMaskFile
+ROBEX is locally stored in /home/gilberstadt.j/Upload_from_Local/fsltest/ROBEX
