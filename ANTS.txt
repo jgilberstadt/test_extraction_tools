@@ -1,0 +1,2 @@
+Load ants as a module
+Run the command antsBrainExtraction.sh -d 3 -a input -e template -m template_mask -o basename
