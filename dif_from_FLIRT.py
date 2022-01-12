@@ -2,9 +2,9 @@
 ######## Job Name: Sample_Job ########
 #SBATCH -J Sample_Job
 ######## Job Output File: Sample_job.oJOBID ########
-#SBATCH -o /home/gilberstadt.j/Upload_from_Local/josh_vbm_bet_0_jobs/Sample_job.o%j
+#SBATCH -o /home/gilberstadt.j/Upload_from_Local/dif_from_FLIRT_jobs/Sample_job.o%j
 ######## Job Error File: Sample_job.eJOBID ########
-#SBATCH -e /home/gilberstadt.j/Upload_from_Local/josh_vbm_bet_0_jobs/Sample_job.e%j
+#SBATCH -e /home/gilberstadt.j/Upload_from_Local/dif_from_FLIRT_jobs/Sample_job.e%j
 ######## Email
 #SBATCH --mail-user=gilberstadt.j@wustl.edu
 #SBATCH --mail-type=END,FAIL,TIME_LIMIT
