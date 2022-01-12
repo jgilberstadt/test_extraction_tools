@@ -2,4 +2,5 @@ Clone the DeepMRSeg repository from https://github.com/CBICA/DeepMRSeg/tree/1.0.
 Install the dependencies and create the python environment DeepMRSeg from the installation instructions
 Download the pretrained models to a pre-defined local folder using the command deepmrseg_downloadmodel
 To calculate the ICV of an image, run the command deepmrseg_apply --task dlicv --inImg subj1.nii.gz --outImg subj1_DLICV.nii.gz where subj1.nii.gz is the input image and subj1_DLICV.nii.gz is the output image
+Add the line #SBATCH --gres gpu:1,vmem:32gb:1 to the Slurm script to run DeepMRSeg using GPU
 DeepMRSeg is locally stored in /home/gilberstadt.j/Upload_from_Local/fsltest/DeepMRSeg 
